@@ -1,0 +1,81 @@
+body {
+    background-color: lightyellow; /* Fondo rosado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente divertida */
+    text-align: center;
+}
+
+/* Contenedor principal */
+#content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    width: 400px;
+}
+
+/* Título */
+h1 {
+    font-size: 24px;
+    color: lightcoral; /* Rosa fuerte */
+    margin-bottom: 20px;
+}
+
+/* Contenedor de GIF */
+.gif-container {
+    margin-bottom: 20px;
+}
+
+.tenor-gif-embed {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-yes {
+    background-color: #ff4d4d; /* Rosa fuerte */
+    color: white;
+}
+
+.btn-no {
+    background-color: #ff1a1a; /* Rosa más oscuro */
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn-yes:hover {
+    background-color: #ff6666; /* Rosa más claro */
+}
+
+.btn-no:hover {
+    background-color: #ff3333; /* Rosa más claro */
+}
+
+/* Botón "No" que se mueve */
+.no-button {
+    position: absolute;
+}
